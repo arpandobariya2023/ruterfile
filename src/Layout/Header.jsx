@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <div>
+    <div className='App'>
       <h2>
       <nav>
-        <ul>
+        <ul className='centerline'>
           <li>
             
             <Link to="/">Home</Link>
@@ -16,6 +16,9 @@ const Header = () => {
           </li>
           <li>
             <Link to="/contact">Contact</Link>
+          </li>
+          <li>
+            <Link to="/Filtter">Filtter</Link>
           </li>
         </ul>
       </nav>
