@@ -8,6 +8,7 @@ import Contect from './pages/Contect';
 import Login from './pages/Login';
 import NoPage from './pages/NoPage';
 import Filtter from './pages/Filtter';
+import Search from './pages/Search';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/contact" element={<Contect />} />
           <Route path="/login" element={<Login />} />
           <Route path="/Filtter" element={<Filtter />} />
+          <Route path="/Search" element={<Search />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
