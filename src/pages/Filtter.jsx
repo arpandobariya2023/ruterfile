@@ -27,6 +27,7 @@ const Filtter = () => {
 
     ];
     let newArr = [ 12,1,23,45,16,27,8,9]
+    
 
     return (
         <div>
@@ -38,6 +39,7 @@ const Filtter = () => {
             }
             <p>{newArr.sort()}</p>
             <p>{newArr.reverse()}</p>
+            
 
         </div>
     );
