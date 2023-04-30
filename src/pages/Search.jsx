@@ -77,7 +77,7 @@ const Search = () => {
     }
     return (
         <div className='centerline'>
-            
+            <h3 className='mt-5'><u>3. Searching</u></h3>
 
             <div>
                 <div>
