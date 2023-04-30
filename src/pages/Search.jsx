@@ -5,47 +5,6 @@ import { useState } from "react";
 const Search = () => {
 
 
-
-    //     const productList = ["blue pant"
-    //         , "black pant"
-    //         , "blue shirt"
-    //         , "black shoes"
-    //         , "brown shoes"
-    //         , "white pant"
-    //         , "white shoes"
-    //         , "red shirt"
-    //         , "gray pant"
-    //         , "white shirt"
-    //         , "golden shoes"
-    //         , "dark pant"
-    //         , "pink shirt"
-    //         , "yellow pant"];
-
-    //     const [products, setProducts] = useState(productList);
-    //     const [searchVal, setSearchVal] = useState("");
-    //     const handleSearchClick = () => {
-
-    //     }
-
-
-    //     return (
-    //         <div>
-    //             <h1>
-    //                 Search
-    //             </h1>
-    //             <input type="text" placeholder='Search Your Product' onChange={(f) => setSearchVal(f.target.value)} />
-    //             <button type= "button" onClick={handleSearchClick}>Search</button>
-    //             {
-    //                 products.map((i) =>
-    //                     <p>{i}</p>
-    //                 )
-    //             }
-
-    //         </div>
-    //     )
-
-
-
     const data = ['Vivo', 'Oppo', 'Realme', 'Samsung', 'iPhone', 'Lava', 'Sony', 'Nokia', 'Moto', 'Apple', 'Sandisk', 'Fire-Boltt', 'OnePlus', 'Redmi', 'Tecno', 'iQOO'];
 
     const [Data, setData] = useState(data);
@@ -77,7 +36,7 @@ const Search = () => {
     }
     return (
         <div className='centerline'>
-            <h3 className='mt-5'><u>3. Searching</u></h3>
+            
 
             <div>
                 <div>
