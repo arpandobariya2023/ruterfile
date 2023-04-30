@@ -23,6 +23,9 @@ const Header = () => {
           <li>
             <Link to="/Search">Search</Link>
           </li>
+          <li>
+            <Link to="/Crud">Crud</Link>
+          </li>
         </ul>
       </nav>
       </h2>
